@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./chatStyle.css">
+    <title>Клиент</title>
+
+</head>
+<body>
+    <div id='chatClosed'>
+        <p id="chatClosedMessage"><span style="font-size: 1.5rem;">&#9993</span> Отправьте нам сообщение.</p>        
+    </div>
+    <div class="mainChat">
+        <div id='close'>
+        <p id='closeButton'>&#10006</p> 
+        </div>     
+    <div class='Chat'>
+        <div class="overflowContainer">
+            <div class="messagesDiv">
+
+            </div>
+        </div>
+        <div class="buttonInputDiv">
+            <input id='input' placeholder="Введите сообщение..." type='text'>
+            <button id='button'>Отправить</button>
+        </div>
+    </div>
+    </div>
+    <script src='./chatScript.js'></script>
+</body>
+</html>
